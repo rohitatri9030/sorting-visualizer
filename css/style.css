@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #1abc9c;
-  --secondary-color: #16a085;
+  --primary-color: #19547B;
+  --secondary-color: #FFD89B;
 }
 * {
   /* Below is the standard CSS code one should add to get rid of default margins and padding which most of tge HTML elements have */
@@ -40,7 +40,7 @@ body {
   font-size: 16px;
   min-height: 70px;
   padding-block: 0.6em;
-  background-color: var(--secondary-color);
+  background-color: #3f81ad;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .navbar a {
@@ -51,10 +51,10 @@ body {
   padding: 8px 10px;
   border-radius: 6px;
   transition: 0.3s;
-  background-color: #1abc9c;
+  background-color: #19547B;
 }
 .navbar a:hover {
-  background-color: transparent;
+  background-color: #FFD89B;
 }
 .navbar #menu {
   width: fit-content;
@@ -62,7 +62,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 6px 8px;
-  background-color: #1abc9c;
+  background-color: #19547B;
   color: white;
 }
 .navbar > .icon {
