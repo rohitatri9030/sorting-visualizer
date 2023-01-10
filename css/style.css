@@ -1,6 +1,6 @@
 :root {
   --primary-color: #19547B;
-  --secondary-color: #FFD89B;
+  --secondary-color: #39b3b3;
 }
 * {
   /* Below is the standard CSS code one should add to get rid of default margins and padding which most of tge HTML elements have */
@@ -54,7 +54,7 @@ body {
   background-color: #19547B;
 }
 .navbar a:hover {
-  background-color: #FFD89B;
+  background-color: var(--secondary-color);
 }
 .navbar #menu {
   width: fit-content;
@@ -142,7 +142,7 @@ footer {
 .link {
   text-decoration: none;
   font-weight: bold;
-  color: #ff5252;
+  color: #ff0000;
   font-size: 20px;
 }
 
